@@ -92,7 +92,8 @@ Spark Job 에 제출하게 될 Scripts들의 관리가 용이하도록 구성 �
 ![CI기능](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/aede9fef-4a66-44bc-8322-a2954fc28db3)
 
 자세한 CI 구성 단계는 아래 문서에서 확인하실 수 있습니다.
-[CI](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/wiki/Airflow-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8)
+
+[Wiki Github Action](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/wiki/Airflow-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8)
 
 ## 프로젝트 사용 스택
 
