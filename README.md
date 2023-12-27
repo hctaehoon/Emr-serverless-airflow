@@ -9,3 +9,5 @@
 ![Apache Airflow](https://img.shields.io/badge/Airflow-blue) 
 ![AWS EMR (Serverless)](https://img.shields.io/badge/AWS_EMR(serverless)-yellow)
 ![GitHub Actions](https://img.shields.io/badge/GithubAction-black)
+![Spark](https://img.shields.io/badge/Spark-green)
+
