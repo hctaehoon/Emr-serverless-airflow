@@ -1,3 +1,10 @@
+## 프로젝트 개요
+
+[목적.pdf](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/files/13774913/default.pdf)
+
+
+
+
 ## 프로젝트 사용 스택
 
 
