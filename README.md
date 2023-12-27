@@ -80,9 +80,19 @@ Variable로 받은 폴더명은 Xcom 을 통해 Spark Job에 전달하도록 하
 
 ## 프로젝트-전체 아키텍처
 
+![전체아키텍처](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/80e6ee18-e961-41bc-a5f0-a8b7a829a755)
 
 
+## 프로젝트 - CI 
 
+**CICD** 파이프라인을 위하여 Github Action을 이용, S3 버킷과 레포지토리의 특정 브랜치를 동기화하여
+
+Spark Job 에 제출하게 될 Scripts들의 관리가 용이하도록 구성 하였습니다.
+
+![CI기능](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/aede9fef-4a66-44bc-8322-a2954fc28db3)
+
+자세한 CI 구성 단계는 아래 문서에서 확인하실 수 있습니다.
+[CI](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/wiki/Airflow-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8)
 
 ## 프로젝트 사용 스택
 
