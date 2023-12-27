@@ -28,9 +28,10 @@
 
 비용을 절감할 수 있을 것이라고 판단하였습니다.
 
-![파티셔닝규칙](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/2c5673e1-3f59-459f-8514-55d5c073e8e6)
+![자동화](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/db2bd7bc-b184-419c-baf5-44de160021e0)
 
-Airflow에서는 **LocalExecutor**를 사용하였으며, 기존에 사용했던 2.2 버전에서는 EMR Serverless Operator가 Airflow Providers에 포함되지 않았고
+
+Airflow -  **LocalExecutor**를 사용하였으며, 기존에 사용했던 2.2 버전에서는 EMR Serverless Operator가 Airflow Providers에 포함되지 않았고
 
 2.7 버전에서는 SlackOperator 내에서 Slack API 토큰을 인식하지 못하는 버그가 있어
 
