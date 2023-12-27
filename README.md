@@ -65,9 +65,9 @@ Variable로 받은 폴더명은 Xcom 을 통해 Spark Job에 전달하도록 하
 
 
 
-* 또한 EMR Operator 를 통해 Spark Job 을 제출 시, 초기 사전 용량을 설정할 수 있는데 이를 설정해주어 
+* EMR Operator 를 통해 Spark Job 을 제출 시, 초기 사전 용량을 설정할 수 있는데 이를 설정해주어 
 
-**비용 및 시간을 약 40%** 절감할 수 있었습니다.또한 최대 용량도 설정하여, EMR 환경에 사용 할 최대 리소스도 제한할 수 있습니다.
+  **비용 및 시간을 약 40%** 절감할 수 있었습니다.또한 최대 용량도 설정하여, EMR 환경에 사용 할 최대 리소스도 제한할 수 있습니다.
 
 ![dag3](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/4c875f98-4c09-4f2a-85d2-be5f9fe34849)
 
