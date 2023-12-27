@@ -40,6 +40,16 @@ Airflow 는 LocalExecutor 를 사용하였고, 2.2 버전에선 Airflow Provider
 [Airflow 환경 설정](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/wiki/Airflow-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8#3-airflowawss3hook)
 
 
+## 프로젝트 진행(Airflow Dag)
+
+![dag1](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/d47945e5-86ff-4de5-aa72-fc302ccd49a0)
+
+위와 같이 Airflow의 Variable 기능과 Xcom 기능을 **데이터의 생명 주기를 고려**하여 사용하였고, 
+
+이를 통해 오늘 ETL 작업이 끝나면 내일 Log 데이터가 적재 될 폴더를 추적하여 다음 ETL 작업을 할 수 있도록 설정하였습니다.
+
+
+
 ## 프로젝트 사용 스택
 
 <h3 align="left">Languages and Tools:</h3>
