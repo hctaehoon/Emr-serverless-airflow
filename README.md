@@ -42,7 +42,7 @@ Airflow 는 LocalExecutor 를 사용하였고, 2.2 버전에선 Airflow Provider
 
 ## 프로젝트 진행(Airflow Dag)
 
-![dag1](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/d47945e5-86ff-4de5-aa72-fc302ccd49a0)
+![Airflow 기능 활용](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/d47945e5-86ff-4de5-aa72-fc302ccd49a0)
 
 위와 같이 Airflow의 Variable 기능과 Xcom 기능을 **데이터의 생명 주기를 고려**하여 사용하였고, 
 
