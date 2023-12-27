@@ -73,6 +73,18 @@ Variable로 받은 폴더명은 Xcom 을 통해 Spark Job에 전달하도록 하
 ![dag3](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/4c875f98-4c09-4f2a-85d2-be5f9fe34849)
 
 
+![sparkjob종료](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/41a6eec5-4b34-44d6-82c7-0acb72b5a2b9)
+
+데이터의 정합성 체크 결과도 Slack을 통해 확인할 수 있도록 구성하였습니다.
+![정합성체크](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/a3cab3c1-4b1a-4db7-9e79-d4b0a56eba19)
+
+
+## 프로젝트-전체 아키텍처
+
+
+
+
+
 ## 프로젝트 사용 스택
 
 <h3 align="left">Languages and Tools:</h3>
