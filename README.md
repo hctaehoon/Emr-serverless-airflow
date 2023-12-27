@@ -78,11 +78,12 @@ Variable로 받은 폴더명은 Xcom 을 통해 Spark Job에 전달하도록 하
 ![정합성체크](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/a3cab3c1-4b1a-4db7-9e79-d4b0a56eba19)
 
 
-## 프로젝트-전체 아키텍처
+## 프로젝트- 완성 아키텍처
+
 
 ![전체아키텍처](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/80e6ee18-e961-41bc-a5f0-a8b7a829a755)
 
-
+[실제 시연 영상](https://www.youtube.com/watch?v=fr_N-lJF0VI)
 ## 프로젝트 - CI 
 
 **CICD** 파이프라인을 위하여 Github Action을 이용, S3 버킷과 레포지토리의 특정 브랜치를 동기화하여
