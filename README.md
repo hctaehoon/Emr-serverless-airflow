@@ -79,7 +79,7 @@ Variable로 받은 폴더명은 Xcom 을 통해 Spark Job에 전달하도록 하
 ![정합성체크](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/a3cab3c1-4b1a-4db7-9e79-d4b0a56eba19)
 
 
-## 프로젝트- 완성 아키텍처
+## 프로젝트- Complete Architecture
 
 
 ![전체아키텍처](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/80e6ee18-e961-41bc-a5f0-a8b7a829a755)
