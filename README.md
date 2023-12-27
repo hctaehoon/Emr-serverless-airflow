@@ -5,6 +5,16 @@
 **AWS EMR Serverless 환경에서 Spark**를 활용한 **Migration** 프로젝트를 진행하게 되었습니다.
 ![현재 파이프라인](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/8183583c-6c6f-4d18-83ed-d45af8db8618)
 
+## 프로젝트 사용 기술 스택
+
+![Python](https://img.shields.io/badge/Python-brightgreen)
+![Scala](https://img.shields.io/badge/Scala-red)
+![Apache Airflow](https://img.shields.io/badge/Airflow-blue) 
+![AWS EMR (Serverless)](https://img.shields.io/badge/AWS_EMR(serverless)-yellow)
+![GitHub Actions](https://img.shields.io/badge/GithubAction-black)
+![Spark](https://img.shields.io/badge/Spark-green)
+![Docker](https://img.shields.io/badge/Docker-skyblue)
+
 
 ## 프로젝트 진행(AWS 환경 설정)
 프로젝트에서 저는 팀원들의 **PySpark 코드를 Scala로 변환하고 컴파일**하는 역할을 수행하였으며, **자동화된 파이프라인 구축**을 통해 프로젝트를 고도화 하는 데 중점을 두었습니다.
@@ -97,13 +107,4 @@ Spark Job 에 제출하게 될 Scripts들의 관리가 용이하도록 구성 �
 
 [Wiki Github Action](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/wiki/Airflow-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8)
 
-## 프로젝트 사용 기술 스택
-
-![Python](https://img.shields.io/badge/Python-brightgreen)
-![Scala](https://img.shields.io/badge/Scala-red)
-![Apache Airflow](https://img.shields.io/badge/Airflow-blue) 
-![AWS EMR (Serverless)](https://img.shields.io/badge/AWS_EMR(serverless)-yellow)
-![GitHub Actions](https://img.shields.io/badge/GithubAction-black)
-![Spark](https://img.shields.io/badge/Spark-green)
-![Docker](https://img.shields.io/badge/Docker-skyblue)
 
