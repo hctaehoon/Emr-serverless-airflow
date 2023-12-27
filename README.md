@@ -43,9 +43,13 @@ Airflow 는 LocalExecutor 를 사용하였고, 2.2 버전에선 Airflow Provider
 
 ![Airflow 기능 활용](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/d47945e5-86ff-4de5-aa72-fc302ccd49a0)
 
-위와 같이 Airflow의 Variable 기능과 Xcom 기능을 **데이터의 생명 주기를 고려**하여 사용하였고, 
+위와 같이 Airflow의 Variable 기능을 사용하여 폴더명을 저장해두고
 
-이를 통해 오늘 ETL 작업이 끝나면 내일 Log 데이터가 적재 될 폴더를 추적하여 다음 ETL 작업을 할 수 있도록 설정하였습니다.
+오늘 ETL 작업이 성공적으로 끝나면 내일 Log 데이터가 적재 될 폴더명으로 변경하여 다음 ETL 작업을 할 수 있도록 설정하였습니다.
+
+또한 **데이터의 생명주기**와 추후에 진행 될 Spark Job의 **확장성** 고려하여,
+
+Variable로 받은 폴더명은 Xcom 을 통해 Spark Job에 전달하도록 하였습니다.
 
 * DAG Graph 및 설명 
 
