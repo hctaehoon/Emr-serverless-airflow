@@ -2,8 +2,7 @@
 
 기업에선 매일 진행되는 **Log 데이터 ETL 작업**에서 발생하는 **Redshift의 부하 문제와 비용 증가**를 해결하기 위해
 
-
-**AWS의 EMR Serverless 환경의 Spark**를 활용한 **Migration** 프로젝트를 진행하게 되었습니다.
+**AWS EMR Serverless 환경에서 Spark**를 활용한 **Migration** 프로젝트를 진행하게 되었습니다.
 ![현재 파이프라인](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/8183583c-6c6f-4d18-83ed-d45af8db8618)
 
 
