@@ -48,6 +48,17 @@ Airflow 는 LocalExecutor 를 사용하였고, 2.2 버전에선 Airflow Provider
 
 이를 통해 오늘 ETL 작업이 끝나면 내일 Log 데이터가 적재 될 폴더를 추적하여 다음 ETL 작업을 할 수 있도록 설정하였습니다.
 
+* DAG Graph 및 설명 
+
+![Airflow Dag](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/0980d126-91fd-4785-a3f2-e7be3918677c)
+
+![DAg2](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/4ec5dbcd-d96b-4d58-b136-8d330380d15c)
+
+EMR Operator 를 통해 Spark Job 을 제출 시, 초기 사전 용량을 설정할 수 있는데 이를 설정해주어 
+
+**비용 및 시간을 약 40%** 절감할 수 있었습니다.
+
+![dag3](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/4c875f98-4c09-4f2a-85d2-be5f9fe34849)
 
 
 ## 프로젝트 사용 스택
