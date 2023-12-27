@@ -27,7 +27,7 @@ hook = S3Hook(aws_conn_id='aws_s3')
 bucket ='taehun-s3-bucket-230717'
 
 # Emrserverless 의 생성 / 시작 / 중지 / 삭제 등의 권한을 부여한, 사전에 만들어 둔 iam role
-JOB_ROLE_ARN =  "arn:aws:iam::796630047050:role/emr_serverless_exe_role"
+JOB_ROLE_ARN =  (iamrole)
 
 # Spark Job 제출 후, log들을 저장 할 S3 경로 지정( 선택사항입니다. app 삭제를 하지 않으면, Spark UI 를 통해서 쉽게 볼 수 있습니다. )
 S3_LOGS_BUCKET = bucket
