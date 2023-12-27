@@ -30,9 +30,13 @@
 
 ![파티셔닝규칙](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/2c5673e1-3f59-459f-8514-55d5c073e8e6)
 
-Airflow 는 LocalExecutor 를 사용하였고, 2.2 버전에선 Airflow Providers 에 EMR Serverless Operator 가 없었고, 2.7 버전에선 
+Airflow에서는 **LocalExecutor**를 사용하였으며, 기존에 사용했던 2.2 버전에서는 EMR Serverless Operator가 Airflow Providers에 포함되지 않았고
 
-모니터링에 필요한 SlackOperator 내에서 Slack API Token을 인식하지 못하는 버그가 있어 2.6.0 버전을 사용하였습니다. 
+2.7 버전에서는 SlackOperator 내에서 Slack API 토큰을 인식하지 못하는 버그가 있어
+
+**Airflow 2.6.0** 버전을 사용하였습니다. 또한 배치 작업 특성 상, Airflow Job 이 실행될 때만 리소스를 사용하는 이점이 있는
+
+**K8s Executor**를 사용하는 K8s로 Migration을 고려해볼 수 있을 것 같습니다.
 
 사용한 도커 이미지 및 환경 설정은 다음 문서에서 확인하실 수 있습니다.
 
