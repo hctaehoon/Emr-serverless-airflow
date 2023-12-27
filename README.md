@@ -1,6 +1,7 @@
 ## 프로젝트 개요
 
-[목적.pdf](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/files/13774913/default.pdf)
+![목적](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/1ce1a1ef-b366-4ba5-8715-2407fab1dc5d)
+
 
 
 
