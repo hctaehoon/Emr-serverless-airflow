@@ -7,7 +7,7 @@
 ![현재 파이프라인](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/8183583c-6c6f-4d18-83ed-d45af8db8618)
 
 
-## 프로젝트 진행
+## 프로젝트 진행(AWS 환경 설정)
 프로젝트에서 저는 팀원들의 **PySpark 코드를 Scala로 변환하고 컴파일**하는 역할을 수행하였으며, **자동화된 파이프라인 구축**을 통해 프로젝트를 고도화하는 데 중점을 두었습니다.
 
 그러나 비용 문제로 인해 기업에서 제공한 환경이 Serverless가 아닌 EC2였기 때문에, 데이터 정합성 검사 및 자동화 파이프라인 테스트 등 권한이 필요한 작업들을 제한 없이 수행할 수 없었습니다.
@@ -17,6 +17,18 @@
 더 자세한 내용은 아래 링크에서 확인하실 수 있습니다:
 
 [EMR serverless 구축(wiki 문서)](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/wiki/Airflow-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8#emr-serverless-operator-%EB%A5%BC-%ED%86%B5%ED%95%9C-spark-job-%EC%9E%90%EB%8F%99%ED%99%94-%EA%B3%BC%EC%A0%95)
+
+
+## 프로젝트 진행(Airflow를 통한 자동화 구성)
+
+기업의 S3에 Log 데이터들을 확인하다보니, 매일 **새로운 폴더에 접근하여 데이터를 추출**한다면 ETL 과정을 자동화 할 수 있다고 생각했습니다.
+
+현재 기업측에선 AWS Glue 서비스를 통한 유료 자동화 파이프라인을 이용 중이라고 말씀해주셨는데, 오픈 소스인 **Airflow**의 기능들을 활용하면 비용을 절감할 수 있다고 
+
+생각하였습니다.
+
+![파티셔닝규칙](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/2c5673e1-3f59-459f-8514-55d5c073e8e6)
+
 
 
 ## 프로젝트 사용 스택
