@@ -1,5 +1,6 @@
 ## 프로젝트 개요
 
+** 현재 기업측에선 아래와 같은 파이프라인을 구축하여, 매일 유저들의 Log 데이터를 ETL 작업을 통해 활용하고 있는데, Redshift 에 부하가 생겨 속도가 느려지면서 비용도 증가하게 됐고, 이를 작년부터 AWS 에서 서비스하게 된 EMR Serverless 환경의 Spark 를 통해 분산하고자 Migration 프로젝트를 의뢰해주셨다. **
 ![목적](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/1ce1a1ef-b366-4ba5-8715-2407fab1dc5d)
 
 
