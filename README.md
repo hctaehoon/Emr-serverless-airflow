@@ -14,7 +14,7 @@
 
 이 문제를 해결하기 위해 **개인 AWS 계정에서 직접 파이프라인 구축하여 프로젝트를  진행**하기로 하였습니다. 
 
-더 자세한 내용은 아래 링크에서 확인하실 수 있습니다:
+(EMR serverless 구축 단계의 더 자세한 내용은 아래 링크에서 확인하실 수 있습니다.)
 
 [EMR serverless 구축(wiki 문서)](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/wiki/Airflow-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8#emr-serverless-operator-%EB%A5%BC-%ED%86%B5%ED%95%9C-spark-job-%EC%9E%90%EB%8F%99%ED%99%94-%EA%B3%BC%EC%A0%95)
 
