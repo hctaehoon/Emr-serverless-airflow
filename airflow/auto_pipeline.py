@@ -21,7 +21,7 @@ from io import StringIO
 day_time = 86400000
 hook = S3Hook(aws_conn_id='aws_s3')
 bucket ='taehun-s3-bucket-230717'
-JOB_ROLE_ARN =  "arn:aws:iam::796630047050:role/emr_serverless_exe_role"
+JOB_ROLE_ARN =  (IAMROLE)
 S3_LOGS_BUCKET = bucket
 DEFAULT_MONITORING_CONFIG = {
     "monitoringConfiguration": {
