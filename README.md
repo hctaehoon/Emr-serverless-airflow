@@ -29,9 +29,13 @@
 
 ![파티셔닝규칙](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/2c5673e1-3f59-459f-8514-55d5c073e8e6)
 
-Airflow 는 LocalExecutor 를 사용하였고, 2.2 버전에선 Airflow Providers 에 EMR Serverless Operator 가 없고, 2.7 버전에선 모니터링에 필요한 SlackOperator 
+Airflow 는 LocalExecutor 를 사용하였고, 2.2 버전에선 Airflow Providers 에 EMR Serverless Operator 가 없고, 2.7 버전에선 
 
-의 Token을 인식하지 못하는 버그가 있어 2.6.0 버전을 사용하였습니다. 사용한 도커 이미지 및 환경 설정은 다음 문서에서 확인하실 수 있습니다.
+모니터링에 필요한 SlackOperator 
+
+의 Token을 인식하지 못하는 버그가 있어 2.6.0 버전을 사용하였습니다. 
+
+사용한 도커 이미지 및 환경 설정은 다음 문서에서 확인하실 수 있습니다.
 
 [Airflow 환경 설정](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/wiki/Airflow-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8#3-airflowawss3hook)
 
