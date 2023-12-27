@@ -56,14 +56,19 @@ Airflow에서는 **LocalExecutor**를 사용하였으며, 기존에 사용했던
 Variable로 받은 폴더명은 Xcom 을 통해 Spark Job에 전달하도록 하였습니다.
 
 * DAG Graph 및 설명 
+다음과 같이 각 Task 마다, **Slack Notification** 을 통해서 작업의 성공 여부를 파악하고  
+
+실패 시 불필요한 리소스의 낭비를 줄이도록 DAG를 구성하였습니다.
 
 ![Airflow Dag](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/0980d126-91fd-4785-a3f2-e7be3918677c)
 
 ![DAg2](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/4ec5dbcd-d96b-4d58-b136-8d330380d15c)
 
-EMR Operator 를 통해 Spark Job 을 제출 시, 초기 사전 용량을 설정할 수 있는데 이를 설정해주어 
 
-**비용 및 시간을 약 40%** 절감할 수 있었습니다.
+
+또한 EMR Operator 를 통해 Spark Job 을 제출 시, 초기 사전 용량을 설정할 수 있는데 이를 설정해주어 
+
+**비용 및 시간을 약 40%** 절감할 수 있었습니다.또한 최대 용량도 설정하여, EMR 환경에 사용 할 최대 리소스도 제한할 수 있습니다.
 
 ![dag3](https://github.com/hctaehoon/emrserverless-etl-cicd-pipeline/assets/113021892/4c875f98-4c09-4f2a-85d2-be5f9fe34849)
 
